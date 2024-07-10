@@ -1,7 +1,7 @@
 <div class="navbars-top">
     <div class="top-left">
         <a href="#" class="brand">
-            <img src="{{ asset('public/img/logo.png') }}" alt="logo">
+            <img src="{{ asset('img/logo.png') }}" alt="logo">
             <div class="brand-text">
                 <span>Politeknik</span>
                 <span> Negeri Ketapang</span>
@@ -18,7 +18,7 @@
 
             <li class="menu-item dropdown">
                 <a href="#" class="item gap-2" data-bs-toggle="dropdown">
-                    <img src="{{ asset('public/img/user1.jpg') }}" alt="notification" class="rounded-full w-7 h-7">
+                    <img src="{{ asset('img/user1.jpg') }}" alt="notification" class="rounded-full w-7 h-7">
                     <div class="flex flex-col items-start justify-center">
                         <span class="text-xs font-medium uppercase">{{ Auth::guard('role')->user()->nama }}</span>
                         <span class="text-xs font-normal uppercase">{{ Auth::guard('role')->user()->nidn }}</span>

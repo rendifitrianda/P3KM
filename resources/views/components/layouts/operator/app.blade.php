@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{{ asset('node_modules/bootstrap-icons/font/bootstrap-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('node_modules/bootstrap/dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('node_modules/toastr/build/toastr.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body>
@@ -31,14 +31,14 @@
 
     {{-- <ion-icon name="heart"></ion-icon> --}}
 
-    <script src="{{ asset('public/js/jquery.js') }}"></script>
+    <script src="{{ asset('js/jquery.js') }}"></script>
 
 
     <script src="{{ asset('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
     <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
     <script src="{{ asset('node_modules/toastr/toastr.js') }}"></script>
-    <script src="{{ asset('public/js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     <x-notif.notif />
     @stack('js')
 </body>
